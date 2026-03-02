@@ -107,7 +107,7 @@ Get the parameters defined in `skill-config.json`: `subagents.params`
 
 Call `sessions_spawn` for the sub-agents. For `task`, use the prompt file you created for that agent. Respect the `subagents.maxConcurrent` parameter. 
 
-Use `scripts/verify_outputs.sh` to verify that sub-agents have written their output files before proceeding. If you cannot execute the script, verify by reading each expected file path. Do not proceed to Step 4 with missing outputs — investigate and resolve first.
+When a sub-agent terminates for any reason, check for the existence of its expected outputs at the file path(s) specified. Do not proceed to Step 4 with missing outputs — investigate and resolve first.
 
 ### 4. Compile the unified bibliography
 
