@@ -3,7 +3,7 @@ name: researching-in-parallel
 description: Research any topic thoroughly by running three sub-agents with distinct analytical lenses (breadth, critique, evidence), then giving their outputs to a final sub-agent to produce/update one review report with a unified bibliography. Supports iterative research — outputs from one run can be fed back as starting-point sources for the next. Use when the user wants a deep, comprehensive, or multi-perspective synthesis of a topic. Not for quick factual lookups or conversational questions.
 metadata:
   author: openclaw-skills
-  version: "1.5"
+  version: 1.4
 compatibility: Requires sessions_spawn (OpenClaw default config sufficient — maxSpawnDepth 1). Requires web search, file read/write access to workspace for sub-agents. Browser and PDF tools strongly recommended — without them sub-agents are limited to search snippets. IMPORTANT: This skill MUST be installed within the agent's workspace (e.g. /workspace/skills/) so that  sub-agents can access its internal assets and prompt templates. 
 ---
 
