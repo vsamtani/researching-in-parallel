@@ -14,15 +14,15 @@
     },
     "breadth": {
       "prompt_template": "references/prompts/breadth.md",
-      "model": "anthropic/claude-3-haiku-20240307",
+      "model": "anthropic/claude-3-haiku-20240307"
     },
     "critical": {
       "prompt_template": "references/prompts/critical.md",
-      "model": "google/gemini-3-flash-preview",
+      "model": "google/gemini-3-flash-preview"
     },
     "evidence": {
       "prompt_template": "references/prompts/evidence.md",
-      "model": "google/gemini-3-flash-preview",
+      "model": "google/gemini-3-flash-preview"
     },
     "synthesis": {
       "prompt_template": "references/prompts/synthesis.md",
@@ -45,7 +45,5 @@
     "source_extracts": "sources/[TOPIC_SLUG]-[DATE]/[SOURCE_SLUG].md"
   },
   "save_source_extracts": true,
-  "_save_source_extracts_comment": "When true, sub-agents save a cleaned extract of each source they cite to the workspace. Extracts contain only the content actually used. Recommended for serious research runs: extracts form a verifiable evidence base and can be reused as provided sources on the next run without re-fetching. Adds workspace storage and modest token overhead. Default false for exploratory runs.",
-
-  }
+  "_save_source_extracts_comment": "When true, sub-agents save a cleaned extract of each source they cite to the workspace. Extracts contain only the content actually used. Recommended for serious research runs: extracts form a verifiable evidence base and can be reused as provided sources on the next run without re-fetching. Adds workspace storage and modest token overhead. Default false for exploratory runs."
 }
